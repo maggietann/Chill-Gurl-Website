@@ -1,0 +1,74 @@
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body, html {
+    background-color: mistyrose;
+    height: 100%;
+    margin: 350px 0px 0px 0px;
+    font-family: inherit;
+    font-size: 16px;
+  }
+  
+  /* Style tab links */
+  .tablink {
+    background-color: #cbd3d8;
+    color: black;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 20%;
+  }
+  
+  .tablink:hover {
+    background-color: white;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: black;
+    display: none;
+    padding: 100px 50px;
+    height: 200%;
+  }
+  
+#Home {background-color: white;}
+#Chill {background-color:#ceecd8;}
+#Gurl {background-color: #cbe6ef;}
+#Chat {background-color: #ddd4ee;}
+#ABOUT {background-color: #d3feee;}
+
+/*Button for reminders*/
+#more {display: none;}
+#more2 {display: none;}
+#more3 {display: none;}
+#more4 {display: none;}
+
+/*Timer*/
+.clock-timer {
+  font-size: 2em;
+  font-weight: bold;
+  color: tomato;
+}
+
+.text-ack {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: grey;
+  background-color: tomato;
+}
+
+/*ChatBox*/
+*{transition:all ease .6s;-webkit-transition:all ease .6s;-moz-transition:all ease .6s}
+body{background:mistyrose;}hr{border-top:1px solid #eee}.loginbox,p.try{color:#aaa; float:right;}.onlinebox{height:400px;overflow-y:scroll;margin-top:15%}.users-photos{text-align:center}.users-photos 
+p.center{color:#999}.users-photos a:focus 
+img.circle{border:2px solid #ddd}.users-photos 
+img.circle{width:80px;height:80px;padding:10px}.chat-container{visibility:hidden;opacity:0}.when{font-size:10px;color:#666}.chatbox{max-height:300px;overflow-y:scroll;overflow-x:hidden;background:#f6f7f9}.chatmessage:empty{height:100px;position:relative}.chatmessage:empty:after{content:'No chat message!';position:absolute;top:10px;left:10px;display:block}
+ul.chatmessage li.collection-item:nth-child(even){background:#83c7c1}li img.userImage{width:30px;height:30px}.clearfix{width:100%;clear:both}i.online,i.status{width:10px;height:10px;border-radius:100%;display:inline-block;margin-right:10px}i.status{background:#666}i.online{background:green}.show{visibility:visible;opacity:1}.hidden{display:none;visibility:hidden;opacity:0}
